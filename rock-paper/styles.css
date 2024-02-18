@@ -1,0 +1,81 @@
+body {
+    background-color: #191919;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.container, h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div {
+    margin-bottom: 10px; /* Adjust the margin between sections */
+}
+
+.container button {
+    margin-right: 10px; /* Adjust the margin between buttons */
+}
+
+#btn {
+    margin-top: 10px; /* Adjust the margin between the button section and the Reset Score button */
+}
+
+.gm {
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+}
+
+.pc{
+    height: 50px;
+}
+
+#result-el {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score-el {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-score-button {
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    border: solid white 1px;
+    border-radius: 10px;
+    color: #191919;
+    font-weight: bolder;
+    font-size: 14px;
+    
+}
+
+#move-el {
+    margin: 30px 0;
+}
